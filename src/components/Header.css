@@ -1,0 +1,83 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #F9F9F9;
+    /* border-bottom: 1px solid #dcdcdc; */
+    color: #99C3D5;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    width: 380px;
+    margin-left: 230px;
+    height:5px;
+    color: #99C3D5;
+  }
+
+  .search-bar-text {
+    position: relative; /* Position absolute */
+    top: -20px; /* Adjust the top position as needed */
+    right: 320px; /* Adjust the left position as needed */
+    color: #B3CFE1; /* Adjust text color */
+    font-size: 14px; /* Adjust font size */
+    background-color: transparent;
+  }
+  
+  .icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon {
+    font-size: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+    padding: 5px 0px;
+    color: #538095;
+    border:2px solid #FFFFFF;
+    border-radius: 3px;
+    background-color: #FFFFFF;
+  }
+  /* Header.css */
+.icon-background {
+  background-color: white;
+  padding: 8px;
+  border-radius: 30%;
+  margin-right: 10px; /* Adjust margin as needed */
+}
+
+
+  .notification-dot {
+    position: relative;
+    top: -11px; /* Adjust top position as needed */
+    right: 23px; /* Adjust right position as needed */
+    width: 5px;
+    height: 5px;
+    background-color: #538095; /* Change color as needed */
+    border-radius: 50%;
+    color: #FFFFFF;
+  }
+
+  /* Header.css */
+
+  /* Inside your CSS file */
+/* Inside your CSS file */
+.buttons-container {
+  display: block;
+  margin-top: 20px; /* Adjust margin as needed */
+}
+
+
+.buttons {
+  display: block;
+  flex-direction: column;
+  
+}
+
+.button {
+  margin-right: 10px; /* Adjust margin between buttons */
+  margin-bottom: 10px; /* Adjust margin between header and buttons */
+}

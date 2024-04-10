@@ -1,0 +1,16 @@
+/* YourComponent.css */
+
+.cards {
+    margin-top: -520px; /* Adjust margin as needed */
+    margin-left: 230px;
+    padding: 0px 10px;
+  }
+  
+  .ant-card {
+    margin-bottom: 20px; /* Add space between cards */
+  }
+  
+  .ant-card-meta-title {
+    font-size: 18px; /* Adjust title font size */
+    color: #333; /* Adjust title color */
+  }

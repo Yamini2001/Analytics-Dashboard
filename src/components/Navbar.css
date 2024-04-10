@@ -1,0 +1,24 @@
+/* Navbar.css */
+
+/* Navbar.css */
+
+.buttons-container {
+    margin-top: 20px; /* Adjust margin as needed */
+  }
+  
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    margin-left: 230px;
+    padding: 0px 10px;
+  }
+  
+  .button {
+    margin-top: -600px; /* This is not necessary for button spacing */
+    width: 200px; /* Set a fixed width for buttons */
+    text-align: center; /* Center button text */
+    margin-right: 10px; /* Adjust the right margin to reduce the gap */
+    border-radius: 50px; /* Make the buttons oval-shaped */
+  }
+  
+  
